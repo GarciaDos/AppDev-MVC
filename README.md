@@ -1,19 +1,39 @@
-Open the project in your preferred IDE 
+### 
+we noticed that github messes up the folder system and that you have to put out the demo and venv folders in order for the file to run properly on other pc, since the terminal shows that it cannot find the file if you dont do so.
+###
+
+Download the Zip
+
+Extract the folder inside the zip named "AppDev-MVC-main"
+
+Open the folder you will notice another folder "AppDevNew" and my README.md
+
+inside the folder AppDevNew you will find the folder "demo"
+
+Cut the folder and paste it on "AppDev-MVC-main" directory alongside AppDevNew folder
+
+Open the project "AppDev-MVC-main" in your preferred IDE 
 
 Open your terminal 
 
-python -m venv venv
+input "cd demo" and enter
 
-venv\Script\activate
+input "python -m venv venv" and enter
 
-pip install django
+input "venv\Script\activate" and enter
 
-python.exe -m pip install --upgrade pip
+input "pip install django" and enter
 
-input cd demo and enter
+input "python.exe -m pip install --upgrade pip" and enter
 
-input python.exe manage.py runserver
+input "python.exe manage.py runserver"
 
-open 127.0.0.1:8000 in the terminal
+click and open "127.0.0.1:8000" link in the terminal
 
 The website will now be opened on your main browser
+
+Please do enjoy browsing my website!!
+
+-Niño B. Garcia 
+3rd Year BSCS
+19001618300
