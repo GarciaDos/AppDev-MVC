@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block content %}
+{% load static %}
+<h1>Todo List</h1>
+<br>
+<ul>
+    {% for todo in todos %}
+    <li>
+        {{ todo.title }}: {% if todo.completed %}Completed{% else %}Not completed{% endif %}
+    </li>
+    {% endfor %}
+
+</ul>
+
+<center><img src="{% static 'cagliostro-8.gif' %}"
+    width="220"
+    height="220"
+    id="peace">
+</center>
+<br>
+<center><p>Here's to hoping to get my hands on a Blu-ray copy of the movie.</p></center>
+{% endblock %}

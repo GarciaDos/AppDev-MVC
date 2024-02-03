@@ -1,0 +1,26 @@
+#cover  {
+float: right;
+ margin: 0 0 0 15px;
+}
+
+#rose  {
+float: right;
+ margin: 0 0 0 15px;
+}
+
+#fix  {
+float: right;
+ margin: 0 0 0 15px;
+}
+
+#fight  {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#peace  {
+float: right;
+ margin: 0 0 0 15px;
+}
